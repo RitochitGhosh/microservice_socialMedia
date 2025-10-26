@@ -420,3 +420,30 @@
 {"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-10-26T14:16:41.999Z"}
 {"level":"info","message":"Post Service running on port 3002","service":"post-service","timestamp":"2025-10-26T14:16:42.005Z"}
 {"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2025-10-26T14:16:42.426Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-10-26T15:08:16.090Z"}
+{"level":"info","message":"Post Service running on port 3002","service":"post-service","timestamp":"2025-10-26T15:08:16.093Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2025-10-26T15:08:16.614Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-10-26T15:10:28.917Z"}
+{"level":"info","message":"Post Service running on port 3002","service":"post-service","timestamp":"2025-10-26T15:10:28.920Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2025-10-26T15:10:29.364Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-10-26T15:11:06.601Z"}
+{"level":"info","message":"Post Service running on port 3002","service":"post-service","timestamp":"2025-10-26T15:11:06.603Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2025-10-26T15:11:07.249Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-10-26T15:15:26.475Z"}
+{"level":"info","message":"Post Service running on port 3002","service":"post-service","timestamp":"2025-10-26T15:15:26.478Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2025-10-26T15:15:27.936Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-10-26T15:18:49.304Z"}
+{"level":"info","message":"Post Service running on port 3002","service":"post-service","timestamp":"2025-10-26T15:18:49.307Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2025-10-26T15:18:50.209Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-10-26T15:22:24.148Z"}
+{"level":"info","message":"Post Service running on port 3002","service":"post-service","timestamp":"2025-10-26T15:22:24.151Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2025-10-26T15:22:24.781Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-10-26T15:26:07.385Z"}
+{"level":"info","message":"Post Service running on port 3002","service":"post-service","timestamp":"2025-10-26T15:26:07.389Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2025-10-26T15:26:09.095Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-10-26T15:26:16.881Z"}
+{"level":"info","message":"Post Service running on port 3002","service":"post-service","timestamp":"2025-10-26T15:26:16.883Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2025-10-26T15:26:17.291Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-10-26T15:26:24.547Z"}
+{"level":"info","message":"Post Service running on port 3002","service":"post-service","timestamp":"2025-10-26T15:26:24.550Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2025-10-26T15:26:24.949Z"}

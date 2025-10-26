@@ -17,8 +17,8 @@ const { connectToRabbitMQ } = require("./utils/rabbitmq");
 const app = express();
 const PORT = process.env.PORT || 3002;
 
-app.use(helmet());
 app.use(cors());
+app.use(helmet());
 app.use(express.json());
 
 app.use(requestLogger);
@@ -27,12 +27,10 @@ app.use(requestLogger);
 connectDB();
 
 // Protecting sensitive endpoint
-app.use("/api/posts/create-post", sensitiveRateLimiter(50)); // TODO: 15
+app.use("/api/posts/create-post", sensitiveRateLimiter(15)); // TODO: 15
 app.use("api/posts/posts", sensitiveRateLimiter(50));
 app.use("api/posts/post/:id", sensitiveRateLimiter(50));
-app.use("api/posts/deleete-post", sensitiveRateLimiter(10));
-
-
+app.use("api/posts/deleete-post", sensitiveRateLimiter(30));
 
 app.use("/api/posts", (req, res, next) => {
   req.redisClient = redisClient;

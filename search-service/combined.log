@@ -1,0 +1,6 @@
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-10-26T15:36:39.939Z"}
+{"level":"info","message":"Connected to rabbitMQ","service":"post-service","timestamp":"2025-10-26T15:38:42.534Z"}
+{"level":"info","message":"Subscribed to event: post.created","service":"post-service","timestamp":"2025-10-26T15:38:42.538Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"post-service","timestamp":"2025-10-26T15:38:42.540Z"}
+{"level":"info","message":"Search service is running on port: 3004","service":"post-service","timestamp":"2025-10-26T15:38:42.542Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"post-service","timestamp":"2025-10-26T15:38:43.461Z"}

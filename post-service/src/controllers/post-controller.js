@@ -37,7 +37,12 @@ const createPost = async (req, res) => {
         });
         await post.save();
 
-        // TODO: publish post created event
+        await publishEvent("post.created", {
+            postId: post._id.toString(),
+            userId: req.user.userId,
+            content: post.content,
+            createdAt: post.createdAt,
+        });
 
         await invalidatePostCache(req, post._id.toString());
 
@@ -67,6 +72,7 @@ const getAllPosts = async (req, res) => {
         const cacheKey = `posts:${page}:${limit}`;
         // Try to fetch posts from redis cache
         const cachedPosts = await req.redisClient.get(cacheKey);
+        logger.info(`Cached key: ${cacheKey}`);
 
         if (cachedPosts) {
             logger.info(`Cache hit for key: ${cacheKey}`);
@@ -165,7 +171,7 @@ const deletePost = async (req, res) => {
             postId: post._id.toString(),
             userId: req.user.userId,
             mediaIds: post.mediaIds,
-        })
+        });
 
         await invalidatePostCache(req, req.params.id);
         logger.info(`Cache removed for key: post:${req.params.id}`);
