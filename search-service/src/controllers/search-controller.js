@@ -1,4 +1,4 @@
-const Search = require("../models/Search");
+const Search = require("../models/Search.model");
 const logger = require("../utils/logger");
 
 //implement caching here for 2 to 5 min
