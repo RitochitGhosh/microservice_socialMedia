@@ -1,0 +1,2 @@
+{"level":"error","message":"API  version mismatch","service":"identity-service","timestamp":"2025-10-10T17:55:13.780Z"}
+{"level":"error","message":"REGISTRATION_ERROR:  logger.success is not a function","service":"identity-service","stack":"TypeError: logger.success is not a function\n    at registerUser (/home/ritochit-ghosh/rito_/Learn/nodejs/level-two/04_microservice_project/identity-service/src/controllers/identity.controller.js:40:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-10T17:58:02.753Z"}

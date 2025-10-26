@@ -1,0 +1,156 @@
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-10-10T17:46:29.509Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2025-10-10T17:46:29.980Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-10-10T17:46:35.482Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2025-10-10T17:46:35.975Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-10-10T17:47:03.745Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2025-10-10T17:47:04.244Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-10-10T17:48:37.960Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2025-10-10T17:48:38.464Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-10-10T17:48:39.970Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2025-10-10T17:48:40.477Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-10-10T17:49:05.898Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2025-10-10T17:49:06.445Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-10-10T17:49:28.665Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2025-10-10T17:49:29.151Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-10-10T17:49:37.202Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2025-10-10T17:49:37.685Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-10-10T17:53:56.578Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2025-10-10T17:53:57.078Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-10-10T17:53:59.358Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2025-10-10T17:53:59.851Z"}
+{"level":"info","message":"[Oct 10, 2025, 11:25 PM]: Received POST request at /api/auth/register","service":"identity-service","timestamp":"2025-10-10T17:55:13.780Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-10T17:55:13.780Z"}
+{"level":"error","message":"API  version mismatch","service":"identity-service","timestamp":"2025-10-10T17:55:13.780Z"}
+{"level":"info","message":"[Oct 10, 2025, 11:25 PM]: Received POST request at /api/v1/auth/register","service":"identity-service","timestamp":"2025-10-10T17:55:30.311Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-10T17:55:30.311Z"}
+{"level":"info","message":"REGISTER_USER_CONTROLLER endpoint reached","service":"identity-service","timestamp":"2025-10-10T17:55:30.315Z"}
+{"buffer":{"data":[104,233,72,146,6,144,63,150,216,237,150,157],"type":"Buffer"},"level":"warn","message":"User saved successfully","service":"identity-service","timestamp":"2025-10-10T17:55:30.503Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-10-10T17:56:00.848Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2025-10-10T17:56:01.339Z"}
+{"level":"info","message":"[Oct 10, 2025, 11:28 PM]: Received POST request at /api/v1/auth/register","service":"identity-service","timestamp":"2025-10-10T17:58:02.517Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-10T17:58:02.517Z"}
+{"level":"info","message":"REGISTER_USER_CONTROLLER endpoint reached","service":"identity-service","timestamp":"2025-10-10T17:58:02.522Z"}
+{"level":"error","message":"REGISTRATION_ERROR:  logger.success is not a function","service":"identity-service","stack":"TypeError: logger.success is not a function\n    at registerUser (/home/ritochit-ghosh/rito_/Learn/nodejs/level-two/04_microservice_project/identity-service/src/controllers/identity.controller.js:40:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-10-10T17:58:02.753Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-10-10T17:58:31.986Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2025-10-10T17:58:32.495Z"}
+{"level":"info","message":"[Oct 10, 2025, 11:28 PM]: Received POST request at /api/v1/auth/register","service":"identity-service","timestamp":"2025-10-10T17:58:36.227Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-10T17:58:36.227Z"}
+{"level":"info","message":"REGISTER_USER_CONTROLLER endpoint reached","service":"identity-service","timestamp":"2025-10-10T17:58:36.232Z"}
+{"level":"warn","message":"User already exists","service":"identity-service","timestamp":"2025-10-10T17:58:36.286Z"}
+{"level":"info","message":"[Oct 10, 2025, 11:30 PM]: Received POST request at /api/v1/auth/register","service":"identity-service","timestamp":"2025-10-10T18:00:05.017Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-10T18:00:05.017Z"}
+{"level":"info","message":"REGISTER_USER_CONTROLLER endpoint reached","service":"identity-service","timestamp":"2025-10-10T18:00:05.020Z"}
+{"buffer":{"data":[104,233,73,165,67,87,193,94,117,235,155,238],"type":"Buffer"},"level":"warn","message":"User saved successfully","service":"identity-service","timestamp":"2025-10-10T18:00:05.205Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-10-10T18:12:23.526Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2025-10-10T18:12:24.019Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-10-10T18:25:02.310Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2025-10-10T18:25:02.811Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-10-10T18:25:08.751Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2025-10-10T18:25:09.298Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-10-10T18:25:12.401Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2025-10-10T18:25:12.885Z"}
+{"level":"info","message":"[Oct 11, 2025, 12:16 AM]: Received POST request at /api/auth/register","service":"identity-service","timestamp":"2025-10-10T18:46:43.581Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-10T18:46:43.582Z"}
+{"level":"info","message":"REGISTER_USER_CONTROLLER endpoint reached","service":"identity-service","timestamp":"2025-10-10T18:46:43.589Z"}
+{"level":"warn","message":"User already exists","service":"identity-service","timestamp":"2025-10-10T18:46:43.652Z"}
+{"level":"info","message":"[Oct 11, 2025, 12:16 AM]: Received POST request at /api/auth/register","service":"identity-service","timestamp":"2025-10-10T18:46:52.569Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-10T18:46:52.569Z"}
+{"level":"info","message":"REGISTER_USER_CONTROLLER endpoint reached","service":"identity-service","timestamp":"2025-10-10T18:46:52.571Z"}
+{"buffer":{"data":[104,233,84,156,54,20,56,48,255,1,103,55],"type":"Buffer"},"level":"warn","message":"User saved successfully","service":"identity-service","timestamp":"2025-10-10T18:46:52.772Z"}
+{"level":"info","message":"[Oct 11, 2025, 12:19 AM]: Received POST request at /api/auth/register","service":"identity-service","timestamp":"2025-10-10T18:49:30.948Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-10T18:49:30.948Z"}
+{"level":"info","message":"REGISTER_USER_CONTROLLER endpoint reached","service":"identity-service","timestamp":"2025-10-10T18:49:30.950Z"}
+{"level":"warn","message":"User already exists","service":"identity-service","timestamp":"2025-10-10T18:49:31.002Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-10-11T06:06:26.543Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2025-10-11T06:06:27.006Z"}
+{"level":"info","message":"[Oct 11, 2025, 11:37 AM]: Received POST request at /api/auth/login","service":"identity-service","timestamp":"2025-10-11T06:07:27.274Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-11T06:07:27.274Z"}
+{"level":"info","message":"LOGIN_USER_CONTROLLER: endpoint reached","service":"identity-service","timestamp":"2025-10-11T06:07:27.277Z"}
+{"buffer":{"data":[104,233,84,156,54,20,56,48,255,1,103,55],"type":"Buffer"},"level":"warn","message":"User logged in successfully","service":"identity-service","timestamp":"2025-10-11T06:07:27.425Z"}
+{"level":"info","message":"[Oct 11, 2025, 11:38 AM]: Received POST request at /api/auth/refresh","service":"identity-service","timestamp":"2025-10-11T06:08:43.258Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-11T06:08:43.258Z"}
+{"level":"info","message":"REFRESHTOKEN_CONTROLLER: endpoint hit","service":"identity-service","timestamp":"2025-10-11T06:08:43.260Z"}
+{"level":"info","message":"[Oct 11, 2025, 11:38 AM]: Received POST request at /api/auth/refresh","service":"identity-service","timestamp":"2025-10-11T06:08:47.111Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-11T06:08:47.111Z"}
+{"level":"info","message":"REFRESHTOKEN_CONTROLLER: endpoint hit","service":"identity-service","timestamp":"2025-10-11T06:08:47.114Z"}
+{"level":"warn","message":"Invalid or expired refresh token","service":"identity-service","timestamp":"2025-10-11T06:08:47.158Z"}
+{"level":"info","message":"[Oct 11, 2025, 11:41 AM]: Received POST request at /api/auth/refresh","service":"identity-service","timestamp":"2025-10-11T06:11:32.891Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-11T06:11:32.891Z"}
+{"level":"info","message":"REFRESHTOKEN_CONTROLLER: endpoint hit","service":"identity-service","timestamp":"2025-10-11T06:11:32.893Z"}
+{"level":"warn","message":"Invalid or expired refresh token","service":"identity-service","timestamp":"2025-10-11T06:11:32.940Z"}
+{"level":"info","message":"[Oct 11, 2025, 11:42 AM]: Received POST request at /api/auth/register","service":"identity-service","timestamp":"2025-10-11T06:12:12.447Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-11T06:12:12.447Z"}
+{"level":"info","message":"REGISTER_USER_CONTROLLER: endpoint reached","service":"identity-service","timestamp":"2025-10-11T06:12:12.452Z"}
+{"buffer":{"data":[104,233,245,60,93,149,48,142,50,176,153,72],"type":"Buffer"},"level":"warn","message":"User saved successfully","service":"identity-service","timestamp":"2025-10-11T06:12:12.659Z"}
+{"level":"info","message":"[Oct 11, 2025, 11:42 AM]: Received POST request at /api/auth/login","service":"identity-service","timestamp":"2025-10-11T06:12:17.668Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-11T06:12:17.669Z"}
+{"level":"info","message":"LOGIN_USER_CONTROLLER: endpoint reached","service":"identity-service","timestamp":"2025-10-11T06:12:17.669Z"}
+{"buffer":{"data":[104,233,245,60,93,149,48,142,50,176,153,72],"type":"Buffer"},"level":"warn","message":"User logged in successfully","service":"identity-service","timestamp":"2025-10-11T06:12:17.803Z"}
+{"level":"info","message":"[Oct 11, 2025, 11:42 AM]: Received POST request at /api/auth/refresh","service":"identity-service","timestamp":"2025-10-11T06:12:30.863Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-11T06:12:30.863Z"}
+{"level":"info","message":"REFRESHTOKEN_CONTROLLER: endpoint hit","service":"identity-service","timestamp":"2025-10-11T06:12:30.864Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-10-11T06:22:35.304Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2025-10-11T06:22:35.875Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-10-11T06:24:02.799Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2025-10-11T06:24:03.331Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-10-11T06:24:09.692Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2025-10-11T06:24:10.142Z"}
+{"level":"info","message":"[Oct 11, 2025, 11:54 AM]: Received POST request at /api/auth/register","service":"identity-service","timestamp":"2025-10-11T06:24:40.524Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-11T06:24:40.525Z"}
+{"level":"info","message":"REGISTER_USER_CONTROLLER: endpoint reached","service":"identity-service","timestamp":"2025-10-11T06:24:40.534Z"}
+{"buffer":{"data":[104,233,248,40,189,121,218,15,130,212,229,131],"type":"Buffer"},"level":"warn","message":"User saved successfully","service":"identity-service","timestamp":"2025-10-11T06:24:40.721Z"}
+{"level":"info","message":"[Oct 11, 2025, 11:54 AM]: Received POST request at /api/auth/login","service":"identity-service","timestamp":"2025-10-11T06:24:52.501Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-11T06:24:52.501Z"}
+{"level":"info","message":"LOGIN_USER_CONTROLLER: endpoint reached","service":"identity-service","timestamp":"2025-10-11T06:24:52.504Z"}
+{"buffer":{"data":[104,233,248,40,189,121,218,15,130,212,229,131],"type":"Buffer"},"level":"warn","message":"User logged in successfully","service":"identity-service","timestamp":"2025-10-11T06:24:52.631Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-10-11T06:27:12.471Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2025-10-11T06:27:12.969Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-10-11T06:27:27.314Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2025-10-11T06:27:28.065Z"}
+{"level":"info","message":"[Oct 11, 2025, 11:57 AM]: Received POST request at /api/auth/register","service":"identity-service","timestamp":"2025-10-11T06:27:55.754Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-11T06:27:55.754Z"}
+{"level":"info","message":"REGISTER_USER_CONTROLLER: endpoint reached","service":"identity-service","timestamp":"2025-10-11T06:27:55.759Z"}
+{"buffer":{"data":[104,233,248,235,6,189,157,119,127,189,81,80],"type":"Buffer"},"level":"warn","message":"User saved successfully","service":"identity-service","timestamp":"2025-10-11T06:27:55.937Z"}
+{"level":"info","message":"[Oct 11, 2025, 11:58 AM]: Received POST request at /api/auth/login","service":"identity-service","timestamp":"2025-10-11T06:28:02.157Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-11T06:28:02.157Z"}
+{"level":"info","message":"LOGIN_USER_CONTROLLER: endpoint reached","service":"identity-service","timestamp":"2025-10-11T06:28:02.160Z"}
+{"buffer":{"data":[104,233,248,235,6,189,157,119,127,189,81,80],"type":"Buffer"},"level":"warn","message":"User logged in successfully","service":"identity-service","timestamp":"2025-10-11T06:28:02.320Z"}
+{"level":"info","message":"[Oct 11, 2025, 11:58 AM]: Received POST request at /api/auth/refresh","service":"identity-service","timestamp":"2025-10-11T06:28:46.786Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-11T06:28:46.786Z"}
+{"level":"info","message":"REFRESH_TOKEN_CONTROLLER: endpoint hit","service":"identity-service","timestamp":"2025-10-11T06:28:46.788Z"}
+{"level":"info","message":"[Oct 11, 2025, 12:00 PM]: Received POST request at /api/auth/logout","service":"identity-service","timestamp":"2025-10-11T06:30:16.448Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-11T06:30:16.448Z"}
+{"level":"info","message":"LOGOUT_CONTROLLER: endpoint hit","service":"identity-service","timestamp":"2025-10-11T06:30:16.449Z"}
+{"level":"info","message":"Refresh token deleted for logout","service":"identity-service","timestamp":"2025-10-11T06:30:16.491Z"}
+{"level":"info","message":"[Oct 11, 2025, 12:00 PM]: Received POST request at /api/auth/login","service":"identity-service","timestamp":"2025-10-11T06:30:42.195Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-11T06:30:42.195Z"}
+{"level":"info","message":"LOGIN_USER_CONTROLLER: endpoint reached","service":"identity-service","timestamp":"2025-10-11T06:30:42.197Z"}
+{"buffer":{"data":[104,233,248,235,6,189,157,119,127,189,81,80],"type":"Buffer"},"level":"warn","message":"User logged in successfully","service":"identity-service","timestamp":"2025-10-11T06:30:42.351Z"}
+{"level":"info","message":"[Oct 11, 2025, 5:12 PM]: Received POST request at /api/auth/login","service":"identity-service","timestamp":"2025-10-11T11:42:56.938Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-11T11:42:56.938Z"}
+{"level":"info","message":"LOGIN_USER_CONTROLLER: endpoint reached","service":"identity-service","timestamp":"2025-10-11T11:42:56.939Z"}
+{"buffer":{"data":[104,233,248,235,6,189,157,119,127,189,81,80],"type":"Buffer"},"level":"warn","message":"User logged in successfully","service":"identity-service","timestamp":"2025-10-11T11:42:57.384Z"}
+{"level":"info","message":"[Oct 11, 2025, 5:20 PM]: Received POST request at /api/auth/login","service":"identity-service","timestamp":"2025-10-11T11:50:04.592Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-11T11:50:04.593Z"}
+{"level":"info","message":"LOGIN_USER_CONTROLLER: endpoint reached","service":"identity-service","timestamp":"2025-10-11T11:50:04.594Z"}
+{"buffer":{"data":[104,233,248,235,6,189,157,119,127,189,81,80],"type":"Buffer"},"level":"warn","message":"User logged in successfully","service":"identity-service","timestamp":"2025-10-11T11:50:04.728Z"}
+{"level":"info","message":"[Oct 11, 2025, 7:06 PM]: Received POST request at /api/auth/login","service":"identity-service","timestamp":"2025-10-11T13:36:07.935Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-11T13:36:07.935Z"}
+{"level":"info","message":"LOGIN_USER_CONTROLLER: endpoint reached","service":"identity-service","timestamp":"2025-10-11T13:36:07.936Z"}
+{"buffer":{"data":[104,233,248,235,6,189,157,119,127,189,81,80],"type":"Buffer"},"level":"warn","message":"User logged in successfully","service":"identity-service","timestamp":"2025-10-11T13:36:08.397Z"}
+{"level":"info","message":"[Oct 11, 2025, 10:41 PM]: Received POST request at /api/auth/login","service":"identity-service","timestamp":"2025-10-11T17:11:13.666Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-11T17:11:13.666Z"}
+{"level":"info","message":"LOGIN_USER_CONTROLLER: endpoint reached","service":"identity-service","timestamp":"2025-10-11T17:11:13.668Z"}
+{"buffer":{"data":[104,233,248,235,6,189,157,119,127,189,81,80],"type":"Buffer"},"level":"warn","message":"User logged in successfully","service":"identity-service","timestamp":"2025-10-11T17:11:14.060Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-10-11T18:35:20.472Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2025-10-11T18:35:21.001Z"}
+{"level":"info","message":"[Oct 12, 2025, 12:21 AM]: Received POST request at /api/auth/login","service":"identity-service","timestamp":"2025-10-11T18:51:32.911Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-11T18:51:32.912Z"}
+{"level":"info","message":"LOGIN_USER_CONTROLLER: endpoint reached","service":"identity-service","timestamp":"2025-10-11T18:51:32.917Z"}
+{"buffer":{"data":[104,233,248,235,6,189,157,119,127,189,81,80],"type":"Buffer"},"level":"warn","message":"User logged in successfully","service":"identity-service","timestamp":"2025-10-11T18:51:33.060Z"}
+{"level":"info","message":"[Oct 12, 2025, 1:43 AM]: Received POST request at /api/auth/login","service":"identity-service","timestamp":"2025-10-11T20:13:11.187Z"}
+{"level":"info","message":"Request Body: [object Object]","service":"identity-service","timestamp":"2025-10-11T20:13:11.187Z"}
+{"level":"info","message":"LOGIN_USER_CONTROLLER: endpoint reached","service":"identity-service","timestamp":"2025-10-11T20:13:11.190Z"}
+{"buffer":{"data":[104,233,248,235,6,189,157,119,127,189,81,80],"type":"Buffer"},"level":"warn","message":"User logged in successfully","service":"identity-service","timestamp":"2025-10-11T20:13:11.322Z"}
+{"level":"info","message":"Identity service running on port 3001","service":"identity-service","timestamp":"2025-10-26T14:16:16.040Z"}
+{"level":"info","message":"MongoDB connected successfully","service":"identity-service","timestamp":"2025-10-26T14:16:16.837Z"}

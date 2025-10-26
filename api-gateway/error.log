@@ -1,0 +1,2 @@
+{"level":"error","message":"API  version mismatch","service":"api-gateway","timestamp":"2025-10-10T18:45:58.261Z"}
+{"level":"error","message":"PROXY_ERROR: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-10-11T20:14:30.587Z"}
