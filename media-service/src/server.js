@@ -10,7 +10,7 @@ const mediaRoutes = require("./routes/media-service");
 const logger = require("./utils/logger");
 const errorHandler = require("./middlewares/errorHandler");
 const { sensitiveRateLimiter } = require("./config/rate-limiter-config");
-const { requestLogger } = require("../../post-service/src/middlewares/custom-middleware");
+const { requestLogger } = require("./middlewares/custom-middleware");
 const { connectToRabbitMQ, consumeEvent } = require("./utils/rabbitmq");
 const { handlePostDeleted } = require("./eventHandlers/handle-post-deleted");
 
