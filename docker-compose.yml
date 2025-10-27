@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   api-gateway:
     build: ./api-gateway
@@ -49,7 +47,7 @@ services:
   search-service:
     build: ./search-service
     env_file:
-      - ./search-service
+      - ./search-service/.env
     depends_on:
       - redis
       - rabbitmq
